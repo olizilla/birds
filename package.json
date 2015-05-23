@@ -1,0 +1,16 @@
+{
+  "name": "birds",
+  "version": "1.0.0",
+  "description": "An illustrated book about birds",
+  "main": "reader.js",
+  "scripts": {
+    "start": "node reader.js",
+    "test": "say sorry"
+  },
+  "author": "olizilla",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.0.0",
+    "rethinkdb": "^2.0.0-1"
+  }
+}
