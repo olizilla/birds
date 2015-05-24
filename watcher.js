@@ -11,6 +11,7 @@
 
 */
 
+htmlify = require('./htmlify')
 async = require('async')
 r = require('rethinkdb')
 
@@ -58,11 +59,13 @@ function watch (res, done) {
     if (err) throw err;
     cursor.each(function(err, row) {
         if (err) throw err;
-        console.log(JSON.stringify(row, null, 2));
+        htmlify(row)
     });
   });
   done()
 }
+
+
 
 function testData () {
   return [

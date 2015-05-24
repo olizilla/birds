@@ -2,15 +2,17 @@
   "name": "birds",
   "version": "1.0.0",
   "description": "An illustrated book about birds",
-  "main": "reader.js",
+  "main": "watcher.js",
   "scripts": {
-    "start": "node reader.js",
+    "start": "node watcher.js",
     "test": "say sorry"
   },
   "author": "olizilla",
   "license": "ISC",
   "dependencies": {
     "async": "^1.0.0",
-    "rethinkdb": "^2.0.0-1"
+    "handlebars": "^3.0.3",
+    "rethinkdb": "^2.0.0-1",
+    "underscore.string": "^3.0.3"
   }
 }
