@@ -32,8 +32,6 @@ rethinkdb &
 npm start
 ```
 
-
-
 Some birds:
 
 ```js

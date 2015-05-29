@@ -2,9 +2,9 @@
   "name": "birds",
   "version": "1.0.0",
   "description": "An illustrated book about birds",
-  "main": "lib/watcher.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node lib/watcher.js",
+    "start": "node index.js",
     "test": "say sorry"
   },
   "author": "olizilla",
